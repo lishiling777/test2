@@ -1,0 +1,11 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: spring-cloud-feign-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.3.137.8:8848
+        namespace: a274e634-6e54-49dd-91ba-632350b1c2f5

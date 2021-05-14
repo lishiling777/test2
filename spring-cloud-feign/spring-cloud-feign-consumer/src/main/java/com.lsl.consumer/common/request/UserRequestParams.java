@@ -1,0 +1,12 @@
+package com.lsl.consumer.common.request;
+
+import lombok.Data;
+
+import java.io.Serializable;
+
+@Data
+public class UserRequestParams implements Serializable {
+
+    private String username;
+    private String password;
+}

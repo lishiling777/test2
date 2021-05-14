@@ -9,3 +9,10 @@ spring:
       discovery:
         server-addr: 10.3.137.8:8848
         namespace: a274e634-6e54-49dd-91ba-632350b1c2f5
+
+#将网络请求配置为okhttp
+feign:
+  httpclient:
+    enabled: false
+  okhttp:
+    enabled: true
